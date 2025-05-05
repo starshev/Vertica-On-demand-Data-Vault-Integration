@@ -2,7 +2,6 @@
 
 insert into DWH.s_activities (
 	hk_l_user_group_activity,
-	user_id_from,
 	event,
 	event_dt,
 	load_dt,

@@ -1,4 +1,4 @@
-# On-demand Data Vault Integration with Vertica and Airflow
+# On-demand Vertica-based Data Vault Integration
 
 ### Task  
 Build a pipeline for loading a CSV file with social network groups' activity logs from an S3 bucket and transporting it into the STG layer of the Vertica-based DWH (using Airflow). Enhance the DDS layer by adding a new link and satellite according to the Data Vault architecture. Write a query to address a one-time analytical task: calculate the conversion rate of group members into active participants (left 1+ comments), focusing on the 10 oldest communities.
